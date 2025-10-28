@@ -49,3 +49,44 @@ Adding them to PayrollSystem
 Calling generate_payroll() to show polymorphic behavior.
 
 Submit the GitHub repository link to the code file
+
+
+Q: 2
+Product Inventory
+Design a small Product Inventory System:
+
+Class Product
+
+Attributes: name, price, quantity
+
+Dunder methods:
+
+__str__ – readable info
+
+__add__ – merge two products of same name (combine quantity, average price)
+
+__lt__ – compare based on price
+
+Class Inventory
+
+Maintains a private list of products
+
+Methods:
+
+add_product()
+
+__len__() → returns total number of items
+
+__getitem__() → allows indexing
+
+search_by_name() (case-insensitive match)
+
+Demonstrate:
+
+Adding multiple products
+
+Sorting them using Python’s built-in sorted()
+
+Printing total inventory value.
+
+Submit the GitHub repository link to the code file
