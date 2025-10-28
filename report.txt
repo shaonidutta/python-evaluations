@@ -1,0 +1,3 @@
+revenueItem:Pen, Total Revenue 100.00
+Item:Notebook, Total Revenue 200.00
+Item:Bag, Total Revenue 500.00
