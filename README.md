@@ -90,3 +90,56 @@ Sorting them using Python’s built-in sorted()
 Printing total inventory value.
 
 Submit the GitHub repository link to the code file
+
+
+Q: 3
+Design a small Library Management System using Object-Oriented Programming.
+Requirements:
+
+Create a base class Book with:
+
+Attributes: title, author, isbn, copies
+
+Methods:
+
+__str__() → returns a user-friendly string
+
+borrow() → decreases available copies
+
+return_book() → increases available copies
+
+Raise an exception if borrow() is called when no copies are available.
+
+Create a subclass EBook(Book) with:
+
+Extra attribute: file_size (in MB)
+
+Override __str__() to include file size
+
+Override borrow() so that it does not change copies (since ebooks are unlimited)
+
+Create a class Library that:
+
+Maintains a private list of all books (__books)
+
+Methods:
+
+add_book(book: Book)
+
+find_books_by_author(author: str) → returns a list of books by that author
+
+__len__() → total number of book titles
+
+__getitem__() → allow indexing through the library (e.g., library[0])
+
+Demonstrate:
+
+Adding both Book and EBook instances
+
+Borrowing/returning logic
+
+Searching by author
+
+Using len(library) and indexing syntax
+
+Submit the GitHub repository link to the code file
