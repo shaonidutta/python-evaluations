@@ -159,3 +159,19 @@ Notebook → ₹200
 Bag → ₹500
 Implement it safely using context managers and handle file errors gracefully.
 Submit the GitHub repository link to the code file
+
+Q: 7
+Write a one-line Python expression (no loops) that generates a list of all integers between 1 and 1000 that are:
+divisible by 7 or 9, but not both
+
+and are palindromic numbers (e.g., 121)
+
+Submit the GitHub repository link to the code file
+
+
+Q: 9
+Write a generator prime_generator(n) that yields the first n prime numbers efficiently.
+
+Write a decorator measure_time that prints how long it takes to generate those primes.
+
+Submit the GitHub repository link to the code file

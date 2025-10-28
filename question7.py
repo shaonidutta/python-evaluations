@@ -1,0 +1,1 @@
+palindromic_nums = [n for n in range(1,1001) if str(n) == str(n)[::-1] and ((n%7 ==0)or (n%9 == 0))]
