@@ -175,3 +175,13 @@ Write a generator prime_generator(n) that yields the first n prime numbers effic
 Write a decorator measure_time that prints how long it takes to generate those primes.
 
 Submit the GitHub repository link to the code file
+
+Q: 4
+Write code that simulates a mini banking app:
+A user tries to withdraw more money than available.
+
+It raises a ValueError but wraps it inside a custom exception InsufficientFundsError.
+
+Demonstrate raise ... from ... exception chaining.
+
+Submit the GitHub repository link to the code file
